@@ -11,6 +11,7 @@ def smallestDivisible(n):
 
 ## Using some ideas from the Internet, a much faster solution:
 def fasterDivisible(n):
+    ## You can iterate by the same number you start at, as long as it's a multiple of the final value (which 2520 and 20 are)
     addition = n
     ## You only need to check these numbers, all other cases are covered by these
     check = [11, 13, 14, 16, 17, 18, 19, 20]
